@@ -15,7 +15,8 @@ CPU/RAM: 8 vCPUs | 64 GiB
 00:0d.0 3D controller: NVIDIA Corporation GV100GL [Tesla V100 PCIe 16GB] (rev a1)`
 
 
-`$ python3 ai-benchmark.py
+`$ python3 ai-benchmark.py  
+
 2022-12-27 07:24:12.378411: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
 To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
 2022-12-27 07:24:13.561084: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory
