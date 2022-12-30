@@ -1,12 +1,11 @@
 # OTC_ECS_AI-Benchmark
-AI Benchmark on one of the flavor's of Open Telekom Cloud's Elastic Cloud Server : https://open-telekom-cloud.com/de/produkte-services/core-services/elastic-cloud-server
-Opensource projects:
-https://pypi.org/project/ai-benchmark/
-Specs:
-OTC - ECS
-Flavor p2.2xlarge.8
-OS: Standard_Ubuntu_22.04_V100_latest
-CPU/RAM: 8 vCPUs | 64 GiB
+AI Benchmark on one of the flavor's of Open Telekom Cloud's Elastic Cloud Server : https://open-telekom-cloud.com/de/produkte-services/core-services/elastic-cloud-server  
+Opensource projects: https://pypi.org/project/ai-benchmark/  
+Specs:  
+OTC - ECS  
+Flavor p2.2xlarge.8  
+OS: Standard_Ubuntu_22.04_V100_latest  
+CPU/RAM: 8 vCPUs | 64 GiB  
 
 
 `~# lspci -v | grep -E -i --color 'VGA|3d|2d'
