@@ -1,5 +1,5 @@
 # OTC_ECS_AI-Benchmark
-# AI Benchmark on one of the flavor's of Open Telekom Cloud's Elastic Cloud Server : https://open-telekom-cloud.com/de/produkte-services/core-services/elastic-cloud-server
+AI Benchmark on one of the flavor's of Open Telekom Cloud's Elastic Cloud Server : https://open-telekom-cloud.com/de/produkte-services/core-services/elastic-cloud-server
 Opensource projects:
 https://pypi.org/project/ai-benchmark/
 Specs:
