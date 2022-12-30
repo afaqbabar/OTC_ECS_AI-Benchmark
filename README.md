@@ -7,7 +7,7 @@ OTC - ECS
 Flavor p2.2xlarge.8
 OS: Standard_Ubuntu_22.04_V100_latest
 CPU/RAM: 8 vCPUs | 64 GiB
-~# lspci -v | grep -E -i --color 'VGA|3d|2d'
+`~# lspci -v | grep -E -i --color 'VGA|3d|2d'
 00:02.0 VGA compatible controller: Cirrus Logic GD 5446 (prog-if 00 [VGA controller])
         Prefetchable memory behind bridge: 0000001802c00000-0000001802dfffff [size=2M]
 00:0d.0 3D controller: NVIDIA Corporation GV100GL [Tesla V100 PCIe 16GB] (rev a1)
@@ -16,7 +16,7 @@ $ python3 ai-benchmark.py
 To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
 2022-12-27 07:24:13.561084: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory
 2022-12-27 07:24:13.561190: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory
-2022-12-27 07:24:13.561211: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+2022-12-27 07:24:13.561211: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.`
 
 >>   AI-Benchmark-v.0.1.2
 >>   Let the AI Games begin..
