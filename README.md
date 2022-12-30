@@ -2,11 +2,11 @@
 # AI Benchmark on one of the flavor's of Open Telekom Cloud's Elastic Cloud Server : https://open-telekom-cloud.com/de/produkte-services/core-services/elastic-cloud-server
 Opensource projects:
 https://pypi.org/project/ai-benchmark/
-Test
+Specs:
 OTC - ECS
 Flavor p2.2xlarge.8
 OS: Standard_Ubuntu_22.04_V100_latest
-Specs: 8 vCPUs | 64 GiB
+CPU/RAM: 8 vCPUs | 64 GiB
 ~# lspci -v | grep -E -i --color 'VGA|3d|2d'
 00:02.0 VGA compatible controller: Cirrus Logic GD 5446 (prog-if 00 [VGA controller])
         Prefetchable memory behind bridge: 0000001802c00000-0000001802dfffff [size=2M]
